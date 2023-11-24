@@ -5,7 +5,6 @@ const compression = require('compression')
 const helmet = require('helmet')             
 const app = express()
 const httpServer = require('http').createServer(app)
-const io = require('socket.io')(httpServer)
 const cors = require('cors')
 global.__basedir = __dirname
 
@@ -21,6 +20,6 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(express.static('dist'))
 app.use(cors())
-require('./routes')(app, io)
+require('./routes')(app)
 httpServer.listen(80)
 
