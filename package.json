@@ -1,0 +1,30 @@
+{
+  "name": "citrudev",
+  "version": "1.0.0",
+  "description": "Portfolio Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build ./views/index.html",
+    "dev": "parcel ./views/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrudevmobile/citrudev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citrudevmobile/citrudev/issues"
+  },
+  "homepage": "https://github.com/citrudevmobile/citrudev#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  }
+}
