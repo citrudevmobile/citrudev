@@ -1,9 +1,15 @@
-import { useState, useEffect } from "react"
+
+import React, { useState, useEffect } from "react"
 import { NavLink, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 export default function Home({authenticate}) {
-
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    let navigate = useNavigate()
+    useEffect(()=>{
+        
+    }, [])
     return (
       <>
       <div class="h-screen flex">
@@ -14,7 +20,7 @@ export default function Home({authenticate}) {
         </div>
       </div>
       <div class="flex w-1/2 justify-center items-center bg-white">
-        <form class="bg-white" onSubmit={login}>
+        <form class="bg-white" >
           <h1 class="text-gray-800 font-bold text-2xl mb-1">Hello Again!</h1>
           <p class="text-sm font-normal text-gray-600 mb-7">Welcome Back</p>
           <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">

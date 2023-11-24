@@ -5,7 +5,7 @@ const compression = require('compression')
 const helmet = require('helmet')             
 const app = express()
 const httpServer = require('http').createServer(app)
-const io = require('socket.io')(httpsServer)
+const io = require('socket.io')(httpServer)
 const cors = require('cors')
 global.__basedir = __dirname
 
