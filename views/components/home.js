@@ -84,7 +84,7 @@ export default function Home({authenticate}) {
                     >
                         Open Source Project:&nbsp;&nbsp;
                     </span>
-                    Crypto payday loans on hosted PWA applications. For example, Flippa (https://flippa.com/) enables anyone to sell their digital asset. What about a scenario where you don't want to sell your digital asset? But you need access to funds. I thought to myself that I should be able to get a payday loan using my hosted application. In simple terms, the hosted application can be put into an escrow, and anyone can crowdfund the loan. When the loan is paid, the application is moved out of escrow. When the loan is defaulted on, the hosted application will be liquidated (ex., sold on Flippa). What do you think? <a class="text-blue-500 underline" href="https://github.com/citrudevmobile/kubecle">https://github.com/citrudevmobile/kubecle</a>
+                    Crypto payday loans on hosted PWA (progressive web apps). For example, Flippa (https://flippa.com/) enables anyone to sell their digital asset. What about a scenario where you don't want to sell your digital asset? But you need access to funds. I thought to myself that I should be able to get a payday loan using my hosted application. In simple terms, the hosted application can be put into an escrow, and anyone can crowdfund the loan. When the loan is paid, the application is moved out of escrow. When the loan is defaulted on, the hosted application will be liquidated (ex., sold on Flippa). What do you think?<a class="text-blue-500 underline" href="https://github.com/citrudevmobile/kubecle">https://github.com/citrudevmobile/kubecle</a>
                 </li>
                
             </ul>
