@@ -64,8 +64,10 @@ export default function Home({authenticate}) {
                         Major:&nbsp;
                     </span>
                     Computer Information Systems
-		    https://tunxis.edu/news/tunxis-announces-class-of-2015-graduates/
                 </li>
+		<li>
+		https://tunxis.edu/news/tunxis-announces-class-of-2015-graduates/
+		</li>
                
             </ul>
         </section>
