@@ -103,7 +103,7 @@ export default function Home({authenticate}) {
                 </h2>
                 <section class="mb-0 break-inside-avoid">
                   <section class="mt-1 last:pb-1">
-										 <ul class="flex flex-wrap -mb-1 font-bold leading-relaxed text-md -mr-1.6">
+	<ul class="flex flex-wrap -mb-1 font-bold leading-relaxed text-md -mr-1.6">
         <li class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
             HTML5
         </li>
@@ -157,6 +157,9 @@ export default function Home({authenticate}) {
         </li>
         <li class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
          GIT
+        </li>
+	<li class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+         Jest (automated testing)
         </li>
 										
 <li class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
