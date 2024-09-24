@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel build ./views/index.html",
-    "build": "parcel ./views/index.html"
+    "start": "parcel ./views/index.html",
+    "build": "parcel build ./views/index.html --out-dir build/"
   },
   "repository": {
     "type": "git",
