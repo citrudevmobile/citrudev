@@ -65,10 +65,6 @@ export default function Home({authenticate}) {
                     </span>
                     Computer Information Systems
                 </li>
-		<li>
-		https://tunxis.edu/news/tunxis-announces-class-of-2015-graduates/
-		</li>
-               
             </ul>
         </section>
 
